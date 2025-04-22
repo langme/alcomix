@@ -16,7 +16,10 @@ import androidx.navigation.compose.rememberNavController
 import com.example.alcomix.core.presentation.screens.SplashScreen
 import com.example.alcomix.ui.theme.AlcomixTheme
 import com.example.alcomix.features.calcul.presentation.screens.AlcoholCalculatorScreen
+import dagger.hilt.android.AndroidEntryPoint
+import dagger.hilt.android.HiltAndroidApp
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

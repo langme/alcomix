@@ -1,9 +1,9 @@
-package com.example.alcomix.features.calcul.presentation.viewmodels
+package com.langme.alcomix.features.presentation.viewmodels
 
 import androidx.lifecycle.ViewModel
-import com.example.alcomix.features.calcul.domain.usecases.CalculateAlcoholUseCase
-import com.example.alcomix.features.calcul.domain.models.AlcoholCalculation
-import com.example.alcomix.features.calcul.presentation.state.AlcoholCalculatorUiState
+import com.langme.alcomix.features.domain.usecases.CalculateAlcoholUseCase
+import com.langme.alcomix.features.domain.models.AlcoholCalculation
+import com.langme.alcomix.features.presentation.state.AlcoholCalculatorUiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

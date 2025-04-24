@@ -1,4 +1,4 @@
-package com.example.alcomix.features.calcul.presentation.state
+package com.langme.alcomix.features.presentation.state
 // État de l'UI pour le ViewModel
 data class AlcoholCalculatorUiState(
     val wineVolume: String = "",

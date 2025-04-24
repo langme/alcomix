@@ -1,4 +1,4 @@
-package com.example.alcomix.features.calcul.presentation.widget
+package com.langme.alcomix.features.presentation.widget
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Spring
@@ -25,7 +25,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.alcomix.ui.theme.AlcomixTheme
+import com.langme.alcomix.theme.AlcomixTheme
 
 @Composable
 fun CalculationModeButton(

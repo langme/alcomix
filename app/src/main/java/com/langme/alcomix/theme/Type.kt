@@ -1,4 +1,4 @@
-package com.example.alcomix.ui.theme
+package com.langme.alcomix.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

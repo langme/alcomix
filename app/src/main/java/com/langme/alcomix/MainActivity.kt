@@ -1,4 +1,4 @@
-package com.example.alcomix
+package com.langme.alcomix
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -13,11 +13,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.alcomix.core.presentation.screens.SplashScreen
-import com.example.alcomix.ui.theme.AlcomixTheme
-import com.example.alcomix.features.calcul.presentation.screens.AlcoholCalculatorScreen
+import com.langme.alcomix.core.presentation.screens.SplashScreen
+import com.langme.alcomix.theme.AlcomixTheme
+import com.langme.alcomix.features.presentation.screens.AlcoholCalculatorScreen
 import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.HiltAndroidApp
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {

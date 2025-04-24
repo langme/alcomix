@@ -1,6 +1,6 @@
-package com.example.alcomix.features.calcul.domain.usecases
+package com.langme.alcomix.features.domain.usecases
 
-import com.example.alcomix.features.calcul.domain.models.AlcoholCalculation
+import com.langme.alcomix.features.domain.models.AlcoholCalculation
 
 class CalculateAlcoholUseCase {
     /**

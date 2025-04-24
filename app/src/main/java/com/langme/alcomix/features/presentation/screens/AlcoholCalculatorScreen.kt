@@ -1,4 +1,4 @@
-package com.example.alcomix.features.calcul.presentation.screens
+package com.langme.alcomix.features.presentation.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -17,10 +17,10 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.alcomix.features.calcul.domain.usecases.CalculateAlcoholUseCase
-import com.example.alcomix.features.calcul.presentation.viewmodels.AlcoholCalculatorViewModel
-import com.example.alcomix.features.calcul.presentation.widget.CalculationModeButton
-import com.example.alcomix.ui.theme.AlcomixTheme
+import com.langme.alcomix.features.domain.usecases.CalculateAlcoholUseCase
+import com.langme.alcomix.features.presentation.viewmodels.AlcoholCalculatorViewModel
+import com.langme.alcomix.features.presentation.widget.CalculationModeButton
+import com.langme.alcomix.theme.AlcomixTheme
 import androidx.hilt.navigation.compose.hiltViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)

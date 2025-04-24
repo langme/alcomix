@@ -1,6 +1,6 @@
-package com.example.alcomix.features.calcul.di
+package com.langme.alcomix.features.di
 
-import com.example.alcomix.features.calcul.domain.usecases.CalculateAlcoholUseCase
+import com.langme.alcomix.features.domain.usecases.CalculateAlcoholUseCase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

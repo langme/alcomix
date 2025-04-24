@@ -1,4 +1,4 @@
-package com.example.alcomix.features.calcul.domain.models
+package com.langme.alcomix.features.domain.models
 
 /**
  * Modèle de données pour les calculs d'alcool
